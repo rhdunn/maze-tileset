@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2013 Reece H. Dunn
+	License: CC-BY-SA 3.0
+-->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     x="0px" y="0px" width="512px" height="256px" viewBox="0 0 512 256">
+
+<image x= "32" y="32" width="32" height="32" xlink:href="floor.svg" />
+<image x= "64" y="32" width="32" height="32" xlink:href="floor.svg" />
+<image x= "96" y="32" width="32" height="32" xlink:href="floor.svg" />
+<image x="128" y="32" width="32" height="32" xlink:href="floor.svg" />
+<image x="160" y="32" width="32" height="32" xlink:href="floor.svg" />
+
+<image x= "32" y="64" width="32" height="32" xlink:href="floor.svg" />
+<image x= "64" y="64" width="32" height="32" xlink:href="outer_tl.svg" />
+<image x= "96" y="64" width="32" height="32" xlink:href="top.svg" />
+<image x="128" y="64" width="32" height="32" xlink:href="outer_tr.svg" />
+<image x="160" y="64" width="32" height="32" xlink:href="floor.svg" />
+
+<image x= "32" y="96" width="32" height="32" xlink:href="floor.svg" />
+<image x= "64" y="96" width="32" height="32" xlink:href="left.svg" />
+<image x= "96" y="96" width="32" height="32" xlink:href="roof.svg" />
+<image x="128" y="96" width="32" height="32" xlink:href="right.svg" />
+<image x="160" y="96" width="32" height="32" xlink:href="floor.svg" />
+
+<image x= "32" y="128" width="32" height="32" xlink:href="floor.svg" />
+<image x= "64" y="128" width="32" height="32" xlink:href="outer_bl.svg" />
+<image x= "96" y="128" width="32" height="32" xlink:href="bottom.svg" />
+<image x="128" y="128" width="32" height="32" xlink:href="outer_br.svg" />
+<image x="160" y="128" width="32" height="32" xlink:href="floor.svg" />
+
+<image x= "32" y="160" width="32" height="32" xlink:href="floor.svg" />
+<image x= "64" y="160" width="32" height="32" xlink:href="floor.svg" />
+<image x= "96" y="160" width="32" height="32" xlink:href="floor.svg" />
+<image x="128" y="160" width="32" height="32" xlink:href="floor.svg" />
+<image x="160" y="160" width="32" height="32" xlink:href="floor.svg" />
+
+<g transform="translate(224,32)">
+<image x= "0" y="0" width="32" height="32" xlink:href="floor.svg" />
+<text x="36" y="22" font-size="20px">#F8E69D : floor</text>
+</g>
+
+<g transform="translate(224,64)">
+<image x= "0" y="0" width="32" height="32" xlink:href="roof.svg" />
+<text x="36" y="22" font-size="20px">#FFC881 : roof</text>
+</g>
+
+<g transform="translate(224,96)">
+<image x= "0" y="0" width="32" height="32" xlink:href="top.svg" />
+<text x="36" y="22" font-size="20px">#F4B666 : top</text>
+</g>
+
+<g transform="translate(224,128)">
+<image x= "0" y="0" width="32" height="32" xlink:href="left.svg" />
+<text x="36" y="22" font-size="20px">#D7953F : left</text>
+</g>
+
+<g transform="translate(224,160)">
+<image x= "0" y="0" width="32" height="32" xlink:href="bottom.svg" />
+<text x="36" y="22" font-size="20px">#AE7121 : bottom</text>
+</g>
+
+<g transform="translate(224,192)">
+<image x= "0" y="0" width="32" height="32" xlink:href="right.svg" />
+<text x="36" y="22" font-size="20px">#855B25 : right</text>
+</g>
+
+</svg>
