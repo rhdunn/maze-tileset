@@ -45,11 +45,11 @@ that can then be rendered using the tiles referenced in `maze/tiles.lst`.
 The tile values can be calculated by adding the values of adjacent wall tiles
 (value 1) according to the following values:
 
-	tiles.16 | tiles.256
-	---------|----------
-	  1      | 16 1  64
-	4 + 8    |  4 +   8
-	  2      | 32 2 128
+	tiles.16 : tiles.256
+	---------:----------
+	  1      : 16 1  64
+	4 + 8    :  4 +   8
+	  2      : 32 2 128
 
 If the adjacent value goes outside the maze map, it is treated as a floor
 tile (value 0) and thus is not added to the tile depth value.
