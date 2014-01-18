@@ -1,3 +1,4 @@
 *.png
 
 !maze/color-palette.png
+!maze/tiles.png

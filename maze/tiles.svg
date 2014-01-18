@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2014 Reece H. Dunn
+	License: CC-BY-SA 3.0
+-->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     x="0px" y="0px" width="224px" height="224px" viewBox="0 0 224 224">
+
+<image x=  "0" y="0" width="32" height="32" xlink:href="floor.png" />
+<image x= "32" y="0" width="32" height="32" xlink:href="crossroads.png" />
+<image x= "64" y="0" width="32" height="32" xlink:href="horizontal.png" />
+<image x= "96" y="0" width="32" height="32" xlink:href="vertical.png" />
+<image x="128" y="0" width="32" height="32" xlink:href="end_left.png" />
+<image x="160" y="0" width="32" height="32" xlink:href="end_right.png" />
+<image x="192" y="0" width="32" height="32" xlink:href="end_top.png" />
+
+<image x=  "0" y="32" width="32" height="32" xlink:href="end_bottom.png" />
+<image x= "32" y="32" width="32" height="32" xlink:href="corner_tl.png" />
+<image x= "64" y="32" width="32" height="32" xlink:href="corner_tr.png" />
+<image x= "96" y="32" width="32" height="32" xlink:href="corner_bl.png" />
+<image x="128" y="32" width="32" height="32" xlink:href="corner_br.png" />
+<image x="160" y="32" width="32" height="32" xlink:href="junction_left.png" />
+<image x="192" y="32" width="32" height="32" xlink:href="junction_right.png" />
+
+<image x=  "0" y="64" width="32" height="32" xlink:href="junction_top.png" />
+<image x= "32" y="64" width="32" height="32" xlink:href="junction_bottom.png" />
+<image x= "64" y="64" width="32" height="32" xlink:href="box.png" />
+<image x= "96" y="64" width="32" height="32" xlink:href="roof.png" />
+<image x="128" y="64" width="32" height="32" xlink:href="left.png" />
+<image x="160" y="64" width="32" height="32" xlink:href="right.png" />
+<image x="192" y="64" width="32" height="32" xlink:href="top.png" />
+
+<image x=  "0" y="96" width="32" height="32" xlink:href="bottom.png" />
+<image x= "32" y="96" width="32" height="32" xlink:href="outer_tl.png" />
+<image x= "64" y="96" width="32" height="32" xlink:href="outer_tr.png" />
+<image x= "96" y="96" width="32" height="32" xlink:href="outer_bl.png" />
+<image x="128" y="96" width="32" height="32" xlink:href="outer_br.png" />
+<image x="160" y="96" width="32" height="32" xlink:href="inner_tl.png" />
+<image x="192" y="96" width="32" height="32" xlink:href="inner_tr.png" />
+
+<image x=  "0" y="128" width="32" height="32" xlink:href="inner_bl.png" />
+<image x= "32" y="128" width="32" height="32" xlink:href="inner_br.png" />
+<image x= "64" y="128" width="32" height="32" xlink:href="inset_left.png" />
+<image x= "96" y="128" width="32" height="32" xlink:href="inset_right.png" />
+<image x="128" y="128" width="32" height="32" xlink:href="inset_top.png" />
+<image x="160" y="128" width="32" height="32" xlink:href="inset_bottom.png" />
+<image x="192" y="128" width="32" height="32" xlink:href="corner_tl.png" />
+
+<image x=  "0" y="160" width="32" height="32" xlink:href="corner_tr.png" />
+<image x= "32" y="160" width="32" height="32" xlink:href="corner_bl.png" />
+<image x= "64" y="160" width="32" height="32" xlink:href="corner_br.png" />
+<image x= "96" y="160" width="32" height="32" xlink:href="hedge_tl.png" />
+<image x="128" y="160" width="32" height="32" xlink:href="hedge_tr.png" />
+<image x="160" y="160" width="32" height="32" xlink:href="hedge_bl.png" />
+<image x="192" y="160" width="32" height="32" xlink:href="hedge_br.png" />
+
+<image x=  "0" y="192" width="32" height="32" xlink:href="vedge_tl.png" />
+<image x= "32" y="192" width="32" height="32" xlink:href="vedge_tr.png" />
+<image x= "64" y="192" width="32" height="32" xlink:href="vedge_bl.png" />
+<image x= "96" y="192" width="32" height="32" xlink:href="vedge_br.png" />
+<image x="128" y="192" width="32" height="32" xlink:href="crossroads2.png" />
+<image x="160" y="192" width="32" height="32" xlink:href="crossroads3.png" />
+
+</svg>
