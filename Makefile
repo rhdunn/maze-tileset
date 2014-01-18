@@ -5,7 +5,13 @@ SUFFIXES = .png .svg
 %.png: %.svg
 	rsvg -w ${TILESIZE} -h ${TILESIZE} $< $@
 
-all:	maze/floor.png \
+maze/color-palette.png : maze/color-palette.svg
+	rsvg -w 512 -h 256 $< $@
+
+all:	tiles \
+	maze/color-palette.png
+
+tiles:	maze/floor.png \
 	maze/crossroads.png \
 	maze/horizontal.png \
 	maze/vertical.png \
