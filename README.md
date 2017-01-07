@@ -18,14 +18,14 @@ This will also build the maze/tiles.png file.
 
 ## Tile List
 
-The list of tiles is provided in the `maze/tiles.lst` file. This list does not
+The list of tiles is provided in the `tiles.lst` file. This list does not
 include the file extension and is relative to the `maze` folder.
 
 This list is used by the tile maps, and is a 0-based index list (so 0 is the
 first tile in the list, not 1).
 
 The `maze/tiles.png` file is an image of 7x7 tiles, with each tile being 32x32
-pixels. This matches the `maze/tiles.lst` file, starting in the top-left corner
+pixels. This matches the `tiles.lst` file, starting in the top-left corner
 and moving left-to-right, top-to-bottom. The last cell does not have an allocated
 tile image.
 
@@ -35,9 +35,8 @@ A maze with a tile depth of 2 (that is, it has 2 values -- 0=floor and 1=wall)
 can be rendered by displaying the tile in the `maze/tile.lst` file that
 corresponds to the tile depth value.
 
-The `maze/tiles.16` and `maze/tiles.256` files are comma separated lists of
-numbers that reference tiles in `maze/tiles.lst` for a tile depth of 16 and
-256 respectively.
+The `tiles.16` and `tiles.256` files are comma separated lists of numbers that
+reference tiles in `maze/tiles.lst` for a tile depth of 16 and 256 respectively.
 
 They are used to convert a map like:
 
@@ -49,7 +48,7 @@ into a map like:
 	8 5
 	7 0
 
-that can then be rendered using the tiles referenced in `maze/tiles.lst`.
+that can then be rendered using the tiles referenced in `tiles.lst`.
 
 The tile values can be calculated by adding the values of adjacent wall tiles
 (value 1) according to the following values:
@@ -69,8 +68,8 @@ adjacent tiles:
 	+ 8
 	2
 
-Thus, it has an index value of `2 + 8 = 10`. This index in `maze/tiles.16` has
-the tile value of 8 which corresponds to the `corner_tl` tile in `maze/tiles.lst`.
+Thus, it has an index value of `2 + 8 = 10`. This index in `tiles.16` has the
+tile value of 8 which corresponds to the `corner_tl` tile in `tiles.lst`.
 
 ## Color Palette
 
