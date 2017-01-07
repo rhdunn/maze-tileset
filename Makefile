@@ -5,61 +5,62 @@ SUFFIXES = .png .svg
 %.png: %.svg
 	rsvg-convert -w ${TILESIZE} -h ${TILESIZE} $< > $@
 
-all:	tiles \
-	maze/color-palette.png \
-	maze/tiles.png
+all:	sand-tiles \
+	sand/color-palette.png \
+	sand/tiles.png
 
-maze/color-palette.png : maze/color-palette.svg
+sand/color-palette.png : sand/color-palette.svg
 	rsvg-convert -w 512 -h 256 $< > $@
 
-maze/tiles.png : maze/tiles.svg tiles
+sand/tiles.png : sand/tiles.svg sand-tiles
 	rsvg-convert -w 224 -h 224 $< > $@
 
-tiles:	maze/floor.png \
-	maze/crossroads.png \
-	maze/horizontal.png \
-	maze/vertical.png \
-	maze/end_left.png \
-	maze/end_right.png \
-	maze/end_top.png \
-	maze/end_bottom.png \
-	maze/corner_tl.png \
-	maze/corner_tr.png \
-	maze/corner_bl.png \
-	maze/corner_br.png \
-	maze/junction_left.png \
-	maze/junction_right.png \
-	maze/junction_top.png \
-	maze/junction_bottom.png \
-	maze/box.png \
-	maze/roof.png \
-	maze/left.png \
-	maze/right.png \
-	maze/top.png \
-	maze/bottom.png \
-	maze/outer_tl.png \
-	maze/outer_tr.png \
-	maze/outer_bl.png \
-	maze/outer_br.png \
-	maze/inner_tl.png \
-	maze/inner_tr.png \
-	maze/inner_bl.png \
-	maze/inner_br.png \
-	maze/inset_left.png \
-	maze/inset_right.png \
-	maze/inset_top.png \
-	maze/inset_bottom.png \
-	maze/corner2_tl.png \
-	maze/corner2_tr.png \
-	maze/corner2_bl.png \
-	maze/corner2_br.png \
-	maze/hedge_tl.png \
-	maze/hedge_tr.png \
-	maze/hedge_bl.png \
-	maze/hedge_br.png \
-	maze/vedge_tl.png \
-	maze/vedge_tr.png \
-	maze/vedge_bl.png \
-	maze/vedge_br.png \
-	maze/crossroads2.png \
-	maze/crossroads3.png
+sand-tiles:	\
+	sand/floor.png \
+	sand/crossroads.png \
+	sand/horizontal.png \
+	sand/vertical.png \
+	sand/end_left.png \
+	sand/end_right.png \
+	sand/end_top.png \
+	sand/end_bottom.png \
+	sand/corner_tl.png \
+	sand/corner_tr.png \
+	sand/corner_bl.png \
+	sand/corner_br.png \
+	sand/junction_left.png \
+	sand/junction_right.png \
+	sand/junction_top.png \
+	sand/junction_bottom.png \
+	sand/box.png \
+	sand/roof.png \
+	sand/left.png \
+	sand/right.png \
+	sand/top.png \
+	sand/bottom.png \
+	sand/outer_tl.png \
+	sand/outer_tr.png \
+	sand/outer_bl.png \
+	sand/outer_br.png \
+	sand/inner_tl.png \
+	sand/inner_tr.png \
+	sand/inner_bl.png \
+	sand/inner_br.png \
+	sand/inset_left.png \
+	sand/inset_right.png \
+	sand/inset_top.png \
+	sand/inset_bottom.png \
+	sand/corner2_tl.png \
+	sand/corner2_tr.png \
+	sand/corner2_bl.png \
+	sand/corner2_br.png \
+	sand/hedge_tl.png \
+	sand/hedge_tr.png \
+	sand/hedge_bl.png \
+	sand/hedge_br.png \
+	sand/vedge_tl.png \
+	sand/vedge_tr.png \
+	sand/vedge_bl.png \
+	sand/vedge_br.png \
+	sand/crossroads2.png \
+	sand/crossroads3.png
