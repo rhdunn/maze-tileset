@@ -3,17 +3,17 @@ TILESIZE=32
 SUFFIXES = .png .svg
 
 %.png: %.svg
-	rsvg -w ${TILESIZE} -h ${TILESIZE} $< $@
+	rsvg-convert -w ${TILESIZE} -h ${TILESIZE} $< > $@
 
 all:	tiles \
 	maze/color-palette.png \
 	maze/tiles.png
 
 maze/color-palette.png : maze/color-palette.svg
-	rsvg -w 512 -h 256 $< $@
+	rsvg-convert -w 512 -h 256 $< > $@
 
 maze/tiles.png : maze/tiles.svg tiles
-	rsvg -w 224 -h 224 $< $@
+	rsvg-convert -w 224 -h 224 $< > $@
 
 tiles:	maze/floor.png \
 	maze/crossroads.png \

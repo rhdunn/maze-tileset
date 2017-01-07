@@ -7,7 +7,7 @@ construct mazes.
 
 The source for the tiles is in SVG format. They can be converted to PNG by running:
 
-	$ rsvg -w 32 -h 32 maze/<TILE>.svg maze/<TILE>.png
+	$ rsvg-convert -w 32 -h 32 maze/<TILE>.svg > maze/<TILE>.png
 
 Alternatively, you can use the provided makefile which will convert all the
 tiles to PNG by running:
